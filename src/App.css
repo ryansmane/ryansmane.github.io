@@ -3,29 +3,70 @@
 }
 
 header {
+  display: flex;
+  justify-content: center;
   height: 15vh;
-  border-bottom: 1px solid red;
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-size: 38px;
+  background-color: #F3D5DC;
   }
 
 main {
   display: flex;
 }
+.firstp {
+  border-bottom: 4px solid #F3AEBE;
+  border-right: 4px solid #F3AEBE;
+  background-color: #F3D5DC;
+}
 
 .lefthand-content {
+  position: relative;
   width: 50vw;
   padding: 42px;
-  background-color: yellow;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  
+}
+
+.link-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-pos {
+  display: flex;
+  margin-top: 24px;
+  padding: 32px;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+
+.special-border {
+  height: 5px;
+  width: 42%;
+  background-color: black;
+}
+.link-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .my-work-cont {
   min-width:50vw;
-  background-color: blue;
+  background-color: #F3EAD5;
   width: 50vh;
-  padding: 16px;
+  padding: 0px 16px;
+  margin: 16px;
+  border-top: 4px solid #F4E4BF;
+  border-left: 4px solid #F4E4BF;
+  
 }
 .my-work {
-  padding: 32px;
-  max-height: 70vh;
+  padding: 0px 32px;
+  max-height: 75vh;
   overflow-y: scroll;
 }
 .head-padding {
