@@ -1,15 +1,22 @@
 import React from 'react';
 import Card from './components/Card';
 import { projects } from './data/projects';
+import ln from './imgs/lnlogo.png';
+import gmail from './imgs/gmaillogo.png';
+import github from './imgs/githublogo.png';
+import youtube from './imgs/youtubelogo.png';
 import './App.css';
 
 function App() {
    return (
       <>
          <header>
-            <div className='head-padding'>
+            
+              
                <h1>Platitudes are Poison.</h1>
-            </div>
+               
+          
+            
          </header>
          <main>
             <div className='lefthand-content'>
@@ -69,28 +76,32 @@ function App() {
             <div className='link-cont'>
                <div className='link-pos'>
                   <div className='link-and-text'>
+                     <img className='link-img' src={ln} alt='project_image' />
+                     <p>linkedin/dada</p>
+                  </div>
+                  <div className='link-and-text'>
                      <img
                         className='link-img'
-                        src='https://cdn.vox-cdn.com/thumbor/Gw34NsuMX1fjz0dq8ILrEcvUPuE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10581345/acastro_180403_1777_youtube_0001.jpg'
+                        src={gmail}
                         alt='project_image'
                      />
                      <p>linkedin/dada</p>
                   </div>
-             <div className='link-and-text'>
+                  <div className='link-and-text'>
                      <img
                         className='link-img'
-                        src='https://cdn.vox-cdn.com/thumbor/Gw34NsuMX1fjz0dq8ILrEcvUPuE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10581345/acastro_180403_1777_youtube_0001.jpg'
+                        src={github}
                         alt='project_image'
                      />
                      <p>linkedin/dada</p>
                   </div>
-             <div className='link-and-text'>
+                  <div className='link-and-text'>
                      <img
                         className='link-img'
-                        src='https://cdn.vox-cdn.com/thumbor/Gw34NsuMX1fjz0dq8ILrEcvUPuE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10581345/acastro_180403_1777_youtube_0001.jpg'
+                        src={youtube}
                         alt='project_image'
                      />
-                    <p>linkedin/dada</p>
+                     <p>linkedin/dada</p>
                   </div>
                </div>
 
@@ -110,6 +121,13 @@ function App() {
                      })}
                   </div>
                </div>
+               <div>
+                 <section className='cr'>
+                   <p>This website was created with React.</p>
+                   <p>Last updated: Spring 2020</p>
+                   
+                   </section>
+              </div>
             </div>
          </main>
       </>
