@@ -11,12 +11,7 @@ function App() {
    return (
       <>
          <header>
-            
-              
-               <h1>Platitudes are Poison.</h1>
-               
-          
-            
+            <h1>Platitudes are Poison.</h1>
          </header>
          <main>
             <div className='lefthand-content'>
@@ -46,7 +41,7 @@ function App() {
                      JavaScript (ES8, Typescript, ReactJS, NodeJS, Angular9)
                   </li>
                   <li>Python (Python3, Django)</li>
-                  <li>Java (Java 10 [Nothing special], Processing)</li>
+                  <li>Java (Java 10 - Nothing Special, Processing)</li>
                   <li>
                      C++ (Novice - I like to pretend I understand C++, so I'll
                      list it here)
@@ -74,39 +69,43 @@ function App() {
                <div className='special-border'></div>
             </div>
             <div className='link-cont'>
+              <h3>Contact:</h3>
                <div className='link-pos'>
-                  <div className='link-and-text'>
-                     <img className='link-img' src={ln} alt='project_image' />
-                     <p>linkedin/dada</p>
-                  </div>
-                  <div className='link-and-text'>
-                     <img
-                        className='link-img'
-                        src={gmail}
-                        alt='project_image'
-                     />
-                     <p>linkedin/dada</p>
-                  </div>
-                  <div className='link-and-text'>
+             <a href='https://github.com/ryansmane'><div className='link-and-text'>
                      <img
                         className='link-img'
                         src={github}
                         alt='project_image'
                      />
-                     <p>linkedin/dada</p>
-                  </div>
-                  <div className='link-and-text'>
+                     <p>/ryansmane</p>
+                  </div></a>
+             <a href='www.linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
+                     <img className='link-img' src={ln} alt='project_image' />
+                     <p>/ryan-zimmer</p>
+             </div></a>
+             <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'><div className='link-and-text'>
                      <img
                         className='link-img'
                         src={youtube}
                         alt='project_image'
                      />
-                     <p>linkedin/dada</p>
-                  </div>
+                     <p>/pixelses</p>
+             </div></a>
+             <a href='mailto:ryanzimmer8@gmail.com'><div className='link-and-text'>
+                     <img
+                        className='link-img'
+                        src={gmail}
+                        alt='project_image'
+                     />
+                     <p>ryanzimmer8@gmail.com</p>
+             </div></a>
                </div>
 
                <div className='my-work-cont'>
-                  <h2>Projects:</h2>
+                  <div>
+                     <h2>Portfolio:</h2>
+                     <div className='special-border2'></div>
+                  </div>
                   <div className='my-work'>
                      {projects.map((el) => {
                         return (
@@ -115,6 +114,9 @@ function App() {
                                  title={el.title}
                                  info={el.info}
                                  image={el.image}
+                                 tech={el.technologies}
+                                 status={el.deployed}
+                                 link={el.link}
                               />
                            </div>
                         );
@@ -122,12 +124,11 @@ function App() {
                   </div>
                </div>
                <div>
-                 <section className='cr'>
-                   <p>This website was created with React.</p>
-                   <p>Last updated: Spring 2020</p>
-                   
-                   </section>
-              </div>
+                  <section className='cr'>
+                     <p>This website was created with React.</p>
+                     <p>Last updated: Spring 2020</p>
+                  </section>
+               </div>
             </div>
          </main>
       </>
