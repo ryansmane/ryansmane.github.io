@@ -12,6 +12,36 @@ function App() {
       <>
          <header>
             <h1>Platitudes are Poison.</h1>
+         <div className='link-pos'>
+           <a href='https://github.com/ryansmane'><div className='link-and-text'>
+             <img
+               className='link-img'
+               src={github}
+               alt='project_image'
+             />
+             
+           </div></a>
+           <a href='www.linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
+             <img className='link-img' src={ln} alt='project_image' />
+             
+           </div></a>
+           <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'><div className='link-and-text'>
+             <img
+               className='link-img'
+               src={youtube}
+               alt='project_image'
+             />
+             
+           </div></a>
+           <a href='mailto:ryanzimmer8@gmail.com'><div className='link-and-text'>
+             <img
+               className='link-img'
+               src={gmail}
+               alt='project_image'
+             />
+             
+           </div></a>
+         </div>
          </header>
          <main>
             <div className='lefthand-content'>
@@ -19,14 +49,14 @@ function App() {
           
                <div className='special-border'></div>
                <p>
-                  No dramatics here. My name is Ryan Zimmer. I have an
-                  undergraduate degree in Math and Economics and I want to be a
+                  No dramatics here. My name is Ryan Zimmer. I have two
+                  undergraduate degrees in Math and Economics and I want to be a
                   career software engineer. Following this paragraph, you will
                   find a list of technologies I have used enough to call my use
                   of them 'skillful' while being entirely sure that there exists
                   dozens, if not hundreds, if not thousands of people in the world
                   that can use them more skillfully than I can -{' '}
-                  <em>at present</em>. Chances are as you read this I've been
+                  at present. Chances are, as you read this I've been
                   writing code for less than a year - or I've fallen too
                   catatonic to update this page. This is to say I am not
                   seasoned. And while some hide their inexperience on paper,
@@ -66,42 +96,14 @@ function App() {
                </p>
                <p>
                   That's it for self-cherishment. Feel free to consult my work,
-                  and equally free to contact me.
+                  and equally free to contact me using the links at the top of the page.
                </p>
                <div className='special-border'></div>
-               <h2>Relevant Links:</h2>
-           <div className='link-pos'>
-             <a href='https://github.com/ryansmane'><div className='link-and-text'>
-               <img
-                 className='link-img'
-                 src={github}
-                 alt='project_image'
-               />
-               <p>/ryansmane</p>
-             </div></a>
-             <a href='www.linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
-               <img className='link-img' src={ln} alt='project_image' />
-               <p>/ryan-zimmer</p>
-             </div></a>
-             <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'><div className='link-and-text'>
-               <img
-                 className='link-img'
-                 src={youtube}
-                 alt='project_image'
-               />
-               <p>/pixelses</p>
-             </div></a>
-             <a href='mailto:ryanzimmer8@gmail.com'><div className='link-and-text'>
-               <img
-                 className='link-img'
-                 src={gmail}
-                 alt='project_image'
-               />
-               <p>ryanzimmer8@gmail.com</p>
-             </div></a>
-           </div>
+               
             </div>
             <div className='link-cont'>
+           
+           
                
 
                <div className='my-work-cont'>
@@ -120,6 +122,7 @@ function App() {
                                  tech={el.technologies}
                                  status={el.deployed}
                                  link={el.link}
+                                 special_note={el.special_note}
                               />
                            </div>
                         );

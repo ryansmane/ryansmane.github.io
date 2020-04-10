@@ -21,8 +21,8 @@ const Card = function (props) {
             <p>{props.info}</p>
             <div className='specifics'>
             <p>Technologies used: {props.tech}</p>
-            <p>Online Status: {props.status}</p>
-            <button onClick={() => setClicked(false)}>Read Less</button>
+            {props.special_note && <p>Special Note: {props.special_note}</p>}
+            <button onClick={() => setClicked(false)}>Hide</button>
             </div>
             </>
             }
