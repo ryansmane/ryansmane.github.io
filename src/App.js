@@ -15,6 +15,8 @@ function App() {
          </header>
          <main>
             <div className='lefthand-content'>
+              
+          
                <div className='special-border'></div>
                <p>
                   No dramatics here. My name is Ryan Zimmer. I have an
@@ -22,7 +24,7 @@ function App() {
                   career software engineer. Following this paragraph, you will
                   find a list of technologies I have used enough to call my use
                   of them 'skillful' while being entirely sure that there exists
-                  dozens if not hundreds if not thousands of people in the world
+                  dozens, if not hundreds, if not thousands of people in the world
                   that can use them more skillfully than I can -{' '}
                   <em>at present</em>. Chances are as you read this I've been
                   writing code for less than a year - or I've fallen too
@@ -67,43 +69,44 @@ function App() {
                   and equally free to contact me.
                </p>
                <div className='special-border'></div>
-            </div>
-            <div className='link-cont'>
-              <h3>Contact:</h3>
-               <div className='link-pos'>
+               <h2>Relevant Links:</h2>
+           <div className='link-pos'>
              <a href='https://github.com/ryansmane'><div className='link-and-text'>
-                     <img
-                        className='link-img'
-                        src={github}
-                        alt='project_image'
-                     />
-                     <p>/ryansmane</p>
-                  </div></a>
+               <img
+                 className='link-img'
+                 src={github}
+                 alt='project_image'
+               />
+               <p>/ryansmane</p>
+             </div></a>
              <a href='www.linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
-                     <img className='link-img' src={ln} alt='project_image' />
-                     <p>/ryan-zimmer</p>
+               <img className='link-img' src={ln} alt='project_image' />
+               <p>/ryan-zimmer</p>
              </div></a>
              <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'><div className='link-and-text'>
-                     <img
-                        className='link-img'
-                        src={youtube}
-                        alt='project_image'
-                     />
-                     <p>/pixelses</p>
+               <img
+                 className='link-img'
+                 src={youtube}
+                 alt='project_image'
+               />
+               <p>/pixelses</p>
              </div></a>
              <a href='mailto:ryanzimmer8@gmail.com'><div className='link-and-text'>
-                     <img
-                        className='link-img'
-                        src={gmail}
-                        alt='project_image'
-                     />
-                     <p>ryanzimmer8@gmail.com</p>
+               <img
+                 className='link-img'
+                 src={gmail}
+                 alt='project_image'
+               />
+               <p>ryanzimmer8@gmail.com</p>
              </div></a>
-               </div>
+           </div>
+            </div>
+            <div className='link-cont'>
+               
 
                <div className='my-work-cont'>
                   <div>
-                     <h2>Portfolio:</h2>
+                     <h2>Portfolio</h2>
                      <div className='special-border2'></div>
                   </div>
                   <div className='my-work'>
@@ -123,12 +126,12 @@ function App() {
                      })}
                   </div>
                </div>
-               <div>
+               {/* <div>
                   <section className='cr'>
                      <p>This website was created with React.</p>
-                     <p>Last updated: Spring 2020</p>
+                     <span>Last updated: Spring 2020</span>
                   </section>
-               </div>
+               </div> */}
             </div>
          </main>
       </>

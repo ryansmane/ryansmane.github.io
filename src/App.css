@@ -11,9 +11,8 @@ header {
    justify-content: center;
    height: 20vh;
    font-size: 32px;
-   background-color: #f3d5dc;
-   padding-bottom: 16px;
-   border-bottom: 4px solid #f3aebe;
+   background-color: #DDF3D5;
+   border-top: 12px solid #C6EDB8;
 }
 
 a {
@@ -46,7 +45,8 @@ main {
 .cr p {
   padding: 0px;
   margin: 0px;
-  margin-top: 16px;
+  margin-top: 32px;
+  font-size: 16px;
 }
 
 
@@ -61,11 +61,25 @@ main {
 .link-cont {
    display: flex;
    flex-direction: column;
+   position: relative;
+}
+
+.link-cont::after {
+  position: absolute;
+  content:'';
+  background: url("./imgs/fate.jpg");
+  
+  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .link-pos {
    display: flex;
-   
+
    padding: 32px;
    align-items: center;
    justify-content: space-evenly;
@@ -95,7 +109,7 @@ h3 {
   margin-bottom: 8px;
    height: 5px;
    width: 42%;
-   background-color: #f4e4bf;
+   background-color: #C6EDB8;
 }
 .link-and-text {
    display: flex;
@@ -107,17 +121,33 @@ h3 {
 
 .my-work-cont {
    min-width: 50vw;
-   background-color: #f3ead5;
+   background-color: #DDF3D5;
    width: 50vh;
    padding: 0px 16px;
    margin: 16px;
-   border-top: 8px solid #f4e4bf;
-   border-left: 8px solid #f4e4bf;
+   border-top: 8px solid #C6EDB8;
+   border-left: 8px solid #C6EDB8;
 }
 .my-work {
    padding: 0px 32px;
-   max-height: 100vh;
+   max-height: 150vh;
+   position: sticky;
    overflow-y: scroll;
+}
+.my-work::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.my-work::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.my-work::-webkit-scrollbar-thumb {
+  background: #C6EDB8;
+  border-radius: 10px;
 }
 
 .link-img {
@@ -132,7 +162,7 @@ h3 {
 .card-img {
    width: 200px;
    height: 150px;
-   border: 4px solid #f3aebe;
+   border: 4px solid #C6EDB8;
    opacity: 0.8;
 }
 
