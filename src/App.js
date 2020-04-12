@@ -21,7 +21,7 @@ function App() {
              />
              
            </div></a>
-           <a href='www.linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
+           <a href='https://linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
              <img className='link-img' src={ln} alt='project_image' />
              
            </div></a>
@@ -55,8 +55,7 @@ function App() {
                   find a list of technologies I have used enough to call my use
                   of them 'skillful' while being entirely sure that there exists
                   dozens, if not hundreds, if not thousands of people in the world
-                  that can use them more skillfully than I can -{' '}
-                  at present. Chances are, as you read this I've been
+                  that can use them more skillfully than I can. Chances are, as you read this I've been
                   writing code for less than a year - or I've fallen too
                   catatonic to update this page. This is to say I am not
                   seasoned. And while some hide their inexperience on paper,
@@ -95,7 +94,7 @@ function App() {
                   Bootstrap, Pug, and SASS to limited extents.
                </p>
                <p>
-                  That's it for self-cherishment. Feel free to consult my work,
+                  That's it for self-cherishment. Feel free to consult my projects,
                   and equally free to contact me using the links at the top of the page.
                </p>
                <div className='special-border'></div>
@@ -108,7 +107,7 @@ function App() {
 
                <div className='my-work-cont'>
                   <div>
-                     <h2>Portfolio</h2>
+                     <h2>My Work</h2>
                      <div className='special-border2'></div>
                   </div>
                   <div className='my-work'>
