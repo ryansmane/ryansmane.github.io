@@ -12,99 +12,95 @@ function App() {
       <>
          <header>
             <h1>Platitudes are Poison.</h1>
-         <div className='link-pos'>
-           <a href='https://github.com/ryansmane'><div className='link-and-text'>
-             <img
-               className='link-img'
-               src={github}
-               alt='project_image'
-             />
-             
-           </div></a>
-           <a href='https://linkedin.com/in/ryan-zimmer'><div className='link-and-text'>
-             <img className='link-img' src={ln} alt='project_image' />
-             
-           </div></a>
-           <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'><div className='link-and-text'>
-             <img
-               className='link-img'
-               src={youtube}
-               alt='project_image'
-             />
-             
-           </div></a>
-           <a href='mailto:ryanzimmer8@gmail.com'><div className='link-and-text'>
-             <img
-               className='link-img'
-               src={gmail}
-               alt='project_image'
-             />
-             
-           </div></a>
-         </div>
+            <div className='link-pos'>
+               <a href='https://github.com/ryansmane'>
+                  <div className='link-and-text'>
+                     <img
+                        className='link-img'
+                        src={github}
+                        alt='project_image'
+                     />
+                  </div>
+               </a>
+               <a href='https://linkedin.com/in/ryan-zimmer'>
+                  <div className='link-and-text'>
+                     <img className='link-img' src={ln} alt='project_image' />
+                  </div>
+               </a>
+               <a href='https://www.youtube.com/channel/UCCYXASVuBnXQDzpAi2dDe5A'>
+                  <div className='link-and-text'>
+                     <img
+                        className='link-img'
+                        src={youtube}
+                        alt='project_image'
+                     />
+                  </div>
+               </a>
+               <a href='mailto:ryanzimmer8@gmail.com'>
+                  <div className='link-and-text'>
+                     <img
+                        className='link-img'
+                        src={gmail}
+                        alt='project_image'
+                     />
+                  </div>
+               </a>
+            </div>
          </header>
          <main>
             <div className='lefthand-content'>
-              
-          
                <div className='special-border'></div>
                <p>
-                  No dramatics here. My name is Ryan Zimmer. I have two
-                  undergraduate degrees in Math and Economics and I want to be a
-                  career software engineer. Following this paragraph, you will
-                  find a list of technologies I have used enough to call my use
-                  of them 'skillful' while being entirely sure that there exists
-                  dozens, if not hundreds, if not thousands of people in the world
-                  that can use them more skillfully than I can. Chances are, as you read this I've been
-                  writing code for less than a year - or I've fallen too
-                  catatonic to update this page. This is to say I am not
-                  seasoned. And while some hide their inexperience on paper,
-                  they will almost always reveal it in person so I find it best
-                  to clear that path now. What I offer an instutition, a
-                  company, a group, or even a single person as an engineer is
-                  not wisdom - but strength in what I know, as well as a
-                  personal potential to know much more.
+                  No dramatics here. My name is Ryan Zimmer. I don't try to sell
+                  myself as a senior or seasoned developer. I am a passionate and
+                  creative learner. Programming offered me the unique
+                  opportunity to be an artist and an engineer, so I fell in love
+                  with it.
                </p>
 
-               <p>The list as promised (ordered by relative comfort):</p>
+               <p>Here's what I'm good at:</p>
                <ul className='firstp'>
                   <li>
-                     JavaScript (ES8, Typescript, ReactJS, NodeJS, Angular9)
+                     JavaScript (ES8, TypeScript, ReactJS, NodeJS, Express,
+                     Angular9)
                   </li>
                   <li>Python (Python3, Django)</li>
-                  <li>Java (Java 10 - Nothing Special, Processing)</li>
-                  <li>
-                     C++ (Novice - I like to pretend I understand C++, so I'll
-                     list it here)
-                  </li>
+                  <li>Java (Java 10, Processing)</li>
                </ul>
-               <p>Database Knowledge / General Knowledge</p>
+               <p>What I'm actively learning:</p>
+               <ul className='firstp'>
+                  <li>C/C++</li>
+                  <li>Lua/Love2D</li>
+                  <li>Neural Network Design</li>
+               </ul>
+               <p>My Database Knowledge / General Knowledge</p>
                <ul className='firstp'>
                   <li>MongoDB (through Express)</li>
                   <li>PostgreSQL (through Python)</li>
+                  <li>Web Socketing</li>
                   <li>Object-Oriented Programming</li>
                   <li>Agile Development Methods</li>
-                  <li>Test-Driven Development (React/Express specifically)</li>
+                  <li>Test-Driven Development</li>
                </ul>
-
+               <p>My Education:</p>
+               <ul className='firstp'>
+                  <li>General Assembly - Software Engineering, 2020 </li>
+                  <li>
+                     Central State University - Mathematics and Economics,
+                     2018
+                     </li>
+               </ul>
                <p>
-                  CSS and HTML too, of course. I just don't think they share the
-                  same category as the above languages, so shouldn't be compared
-                  by difficulty. In relation to design, I've used React
-                  Bootstrap, Pug, and SASS to limited extents.
-               </p>
-               <p>
-                  That's it for self-cherishment. Feel free to consult my projects,
-                  and equally free to contact me using the links at the top of the page.
+                  In relation to design, I've used React Bootstrap, Pug, and
+                  SASS to limited extents. I'm looking for entry-level/associate
+                  work in front-end or back-end development, surrounded by
+                  other, more experienced, developers. Feel free to consult my
+                  projects and repositories, and equally free to contact me using the links at
+                  the top of the page.
                </p>
                <div className='special-border'></div>
-               
             </div>
             <div className='link-cont'>
-           
-           
-               
-
                <div className='my-work-cont'>
                   <div>
                      <h2>My Work</h2>

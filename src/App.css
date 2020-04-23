@@ -38,6 +38,7 @@ main {
    border-top: 4px solid #292B57;
    border-left: 4px solid #292B57;
    background-color: #8a8dd0;
+   padding-bottom: 6px;
 }
 .cr {
   font-family: 'Baloo Thambi 2', cursive;
@@ -62,7 +63,7 @@ main {
    width: 50vw;
    padding: 42px;
    font-family: 'Gafata', sans-serif;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
    font-size: 24px;
 }
 

@@ -15,14 +15,20 @@ const Card = function (props) {
            /></a>
          <div className='card-text'>
             <a href={props.link}><h1>{props.title}</h1></a>
-            {!clicked && <p>{props.info.substring(0, 200)+ '. . .'}<button onClick={() => setClicked(true)}>Read More</button></p>}
+            {!clicked && <p>{props.info.substring(0, 200)+ '. . .'}<button onClick={(e) => { 
+               setClicked(true);
+            }
+            }>Read More</button></p>}
             {clicked && 
             <>
             <p>{props.info}</p>
             <div className='specifics'>
             <p>Technologies used: {props.tech}</p>
             {props.special_note && <p>Special Note: {props.special_note}</p>}
-            <button onClick={() => setClicked(false)}>Hide</button>
+            <button onClick={(e) =>  {
+               setClicked(false);
+            }
+            }>Hide</button>
             </div>
             </>
             }
